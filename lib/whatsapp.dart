@@ -9,9 +9,7 @@ class Whatsapp extends StatelessWidget {
       appBar: AppBar(
         title: Text("WhatsApp"),
         titleTextStyle: TextStyle(
-            color: const Color.fromARGB(255, 45, 227, 51),
-            fontSize: 25,
-            fontWeight: FontWeight.bold),
+            color: Colors.green, fontSize: 25, fontWeight: FontWeight.bold),
         actions: [
           Icon(Icons.qr_code_scanner),
           Padding(padding: EdgeInsets.only(right: 20)),
